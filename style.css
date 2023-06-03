@@ -1,0 +1,72 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto+Slab:wght@500&family=Roboto:wght@100;500&display=swap');
+
+/* common style */
+
+body{
+    font-family: 'Roboto Slab', serif;
+    background-color:  #FFFFFF;;
+}
+main{
+    display: flex;
+ justify-content: center;
+}
+.container{
+    background-color:red;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-right: 30px;
+    width:870px ;
+    border-radius:15px;
+
+}
+hr{
+   border: 2px solid blue;
+
+}
+/* top players */
+.top-player-heading{
+    color: blue;
+    font-size: large;
+
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 50px;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player{
+    display: flex;   
+text-align: center;
+}
+.player-name{
+    margin-left: 10px;
+}
+/* top-blogs */
+.top-blogs-heading{
+    margin-top: 50px;
+}
+.blogs img{
+    width: 177px;
+    height: 117px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 50px;
+    grid-row-gap: 26px;
+    
+}
+.blog{
+    display: flex;   
+  
+}
+.write-part{
+    margin-left: 20px;
+}
