@@ -10,7 +10,8 @@ body{
 }
 main{
     display: flex;
- justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .container{
     background-color:red;
@@ -19,6 +20,7 @@ main{
     padding-right: 30px;
     width:870px ;
     border-radius:15px;
+    margin-top: 20px;
 
 }
 hr{
@@ -69,4 +71,30 @@ text-align: center;
 }
 .write-part{
     margin-left: 20px;
+}
+/* course part */
+
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.course-image{
+    height: 104px;
+    width: 224px;
+}
+.rating{
+    display: flex;
+}
+.star{
+    height: 15.808359146118164px;
+    width: 15.387435913085938px;
+}
+.mark{
+    margin-left: 5px;
+}
+.time{
+    display: flex;
+    background-color:gainsboro;
+    border-radius: 5px;
+
 }
